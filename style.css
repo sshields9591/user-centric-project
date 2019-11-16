@@ -1,0 +1,445 @@
+body {
+    background-color: #fafafa;
+    color: #8e1c1c;
+}
+
+
+/*-------NAVBAR-------*/
+
+.navDefault {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+}
+
+button {
+    border: none;
+    background-color: #8e1c1c;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50;
+    z-index: -1;
+    width: 100px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transform: translateY(-100%);
+    transition: transform .5s ease-in-out;
+}
+
+.dropdownLink {
+    text-decoration: none;
+    display: block;
+    background-color: #fafafa;
+    color: #8e1c1c;
+    padding: 10px 5px;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+
+.dropdownLink:hover {
+    color: #fff;
+    background-color: #8e1c1c;
+}
+
+.dropdown {
+    width: 100px;
+    position: relative;
+}
+
+.dropdown:hover button {
+    background-color: #8e1c1c;
+}
+
+.dropdown:hover .dropdownMenu {
+    transform: translateY(0);
+}
+
+
+/*-------JUMBOTRON-------*/
+
+#landing-view {
+    background-image: url(images/landing.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.top {
+    padding-left: 12px;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 5%;
+    font-size: 5em;
+}
+
+.jumbotron p {
+    font-size: 2.5em;
+}
+
+
+/*-------ABOUT ME-------*/
+
+.about-row {
+    padding-top: 10px;
+    font-size: 1.75em;
+    line-height: 2;
+}
+
+h2 {
+    margin-left: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.about-p {
+    font-size: 1.2em;
+}
+
+
+/*-------WORK-------*/
+
+#work {
+    background-image: url(images/tree-fog.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.project-cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fdfdfd;
+    border-radius: 2.5%;
+    height: 16em;
+    top: 50%;
+    margin: 15% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.8;
+}
+
+.card-body {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.card-body .card-text {
+    font-size: 1.07em;
+}
+
+
+/*-------SKILLS-------*/
+
+#skills {
+    position: relative;
+    top: 12%;
+    padding-bottom: 96px;
+}
+
+.skills {
+    margin-top: 70px;
+}
+
+.skills-inner {
+    margin-left: 30px;
+}
+
+.skill-circle {
+    display: inline-table;
+    margin-bottom: 55px;
+    padding-left: 18%;
+}
+
+.arc-wrapper {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    background: #d3d3d3;
+    overflow: hidden;
+    left: 0px;
+    top: 50px;
+    position: absolute;
+}
+
+.arc-overlay {
+    width: 110px;
+    height: 110px;
+    background-color: #fafafa;
+    padding-left: 20px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    line-height: 100px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 22px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 5;
+    top: 55px;
+    left: 5px;
+}
+
+.arc-container {
+    position: relative;
+    height: 130px;
+    width: 130px;
+}
+
+.html {
+    padding-left: 18px;
+}
+
+.css {
+    padding-left: 18px;
+}
+
+.js {
+    padding-left: 18px;
+}
+
+.py {
+    padding-left: 18px;
+}
+
+.sql {
+    padding-left: 18px;
+}
+
+.django {
+    padding-left: 18px;
+}
+
+
+/*-------CONTACT-------*/
+
+#contact {
+    background-attachment: fixed;
+    background-image: url('images/river.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 115vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.contact-form {
+    position: relative;
+    top: 6%;
+}
+
+.contact {
+    margin-left: 30px;
+}
+
+#contact-head {
+    margin-left: -30px;
+}
+
+.btn {
+    background-color: #8e1c1c;
+    color: #fff;
+    margin-left: 50px;
+}
+
+
+/*-------FOOTER-------*/
+
+footer {
+    border-color: transparent;
+    text-align: center;
+}
+
+.foot {
+    margin-bottom: 20px;
+}
+
+a {
+    padding: 5px 5px 15px 15px;
+    background-color: transparent;
+}
+
+.alignment {
+    line-height: 2px;
+}
+
+i {
+    display: inline-block;
+    color: #8f8f8f;
+    width: 41px;
+    height: 25px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
+
+/*-------MEDIA QUERIES------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*--JUMBOTRON--*/
+    
+    .name {
+        padding-top: 0px;
+    }
+
+    h1 {
+        font-size: 10em;
+    }
+
+    .jumbotron p {
+        font-size: 4em;
+    }
+
+    /*--ABOUT--*/
+   
+    .about-p {
+        font-size: 1.8em;
+    }
+
+    /*--WORK--*/
+   
+    .card-container {
+        width: 77vw;
+    }
+
+    .card {
+        height: 12em;
+        width: 18em;
+        padding: 8px;
+        margin: 10px;
+    }
+
+    .project-cards {
+        margin-left: 100px;
+    }
+
+    /*--SKILLS--*/
+   
+    .skill-circle {
+        margin-left: 30px;
+        padding-left: 30px;
+    }
+
+    /*--CONTACT--*/
+    
+    #contact {
+        padding: 0px 10px;
+        height: 100vh;
+    }
+
+    .contact {
+        margin-top: 60px;
+    }
+
+    .contact-head {
+        margin-left: -30px;
+    }
+
+    .form-control {
+        width: 50vw;
+    }
+
+    .form-group {
+        padding: 0px;
+        margin-left: 190px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        margin-left: 400px;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    /*--JUMBOTRON--*/
+   
+   .name{
+       padding-top: 0px;
+   }
+   
+    h1 {
+        font-size: 10em;
+    }
+
+    .jumbotron p {
+        font-size: 4em;
+    }
+
+    /*--WORK--*/
+    
+    .project-cards {
+        margin-left: 140px;
+    }
+
+    .card {
+        height: 17em;
+    }
+    
+    /*--SKILLS--*/
+    
+    .skill-circle {
+        margin-right: 30px;
+    }
+
+    /*--CONTACT--*/
+
+    .form-group {
+        margin-left: 250px;
+    }
+    
+    .form-control {
+        width: 50vw;
+    }
+    .btn {
+        margin-left: 550px;
+    }
+    
+    /*--FOOTER--*/
+    
+    footer {
+        margin-right: 60px;
+    }
+    
+    i {
+        margin-right: 50px;
+    }
+}
