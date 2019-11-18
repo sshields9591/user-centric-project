@@ -1,14 +1,31 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+# Steven Shields Portfolio
+Stream One Project: User Centric Frontend Development - Code Institute
 
+This is essentially my resume of previous and current jobs that I have had and my current studies with Code Institute.
 
-Hi there! Welcome to AWS Cloud9!
+## UX
+My goals in the design of this page was to make information accessible, while keeping a minimal and simple design.
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+## Technologies
+1. HTML
+2. CSS
+3. BOOTSRAP
 
-Happy coding!
+## Features
+This webpage features a dropdown menu that allows you to get to different parts of the webpage quickly.
+
+## Testing
+I manually tested functions of this webpage using the mobile-first design and working my way up to desktop.
+
+## Deployment
+The live site is deployed on GitHub Pages. It uses the master branch and is updated each time there is a new push to the repository.x
+
+## Credits
+### Content
+The text in the "About Me" and "Work" sections were written by me.
+
+## Media
+All photos were taken from https://www.pexels.com, a free stock image library.
+
+## Acknowledgements
+I received inspiration for this project from the source material that was offered. It was similar to previous projects that the course has had us perform and allowd me to creat a webpage as a resume.
